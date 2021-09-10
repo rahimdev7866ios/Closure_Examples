@@ -28,10 +28,7 @@ class ViewController: UIViewController {
           var closure = {
             print("this is simple Closure")
         }
-        
         print(closure())
-        
-        
         var result = {(res:String) -> (Void) in
             
             print(res)
@@ -41,9 +38,9 @@ class ViewController: UIViewController {
         var final = { (a:Int,b:Int) -> (Int) in
             return a + b
         }
-         var s = final(10,20)
+         var ss = final(10,20)
         
-        print(s)
+        print(ss)
         
     }
 }
