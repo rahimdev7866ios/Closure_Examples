@@ -11,9 +11,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
+        //Closure are Datatype which can hold a fucntion or Method
+        // closure are by defaut are non escaping
+        // calling a closure same like as function calling.
+        
+        
+        //simple Syntax:
+//
+//        var syntaxClosure = { (parametrs) ->(returntype) in
+//
+//            statements
+//        }
+//
+        
+        
+          var closure = {
+            print("this is simple Closure")
+        }
+        
+        print(closure())
+        
     }
-
-
 }
 
