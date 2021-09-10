@@ -25,12 +25,22 @@ class ViewController: UIViewController {
 //        }
 //
         
-        
           var closure = {
             print("this is simple Closure")
         }
-        
         print(closure())
+        var result = {(res:String) -> (Void) in
+            
+            print(res)
+        }
+        print(result("hello"))
+        
+        var final = { (a:Int,b:Int) -> (Int) in
+            return a + b
+        }
+         var ss = final(10,20)
+        
+        print(ss)
         
     }
 }
